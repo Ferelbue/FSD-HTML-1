@@ -1,0 +1,65 @@
+body{
+    padding: 0.5em;
+}
+
+.principalTitle{
+    height: 2vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+    font-size: x-large;
+}
+.mainTitleGreen{
+    font-family: 'Lucida Sans';
+    color: rgb(13, 201, 13);
+}
+.mainTitleBronw{
+    font-family: 'Lucida Sans';
+    color: rgb(192, 147, 2);
+}
+
+.mainText{
+    font-family: 'Lucida Sans';
+    color: rgb(0, 0, 0);
+    font-size: small;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: darkgrey;
+    padding: 1em;
+}
+
+.subTitle{
+    color: rgb(13, 201, 13);
+    font-weight: bold;
+    border-bottom: solid;
+    border-width: 0.1em;
+    border-color: darkgrey;
+    margin-bottom: 0.5em;
+}
+
+.title{
+    color: rgb(192, 147, 2);
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.mainView{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.bttn{
+    width: 7em;
+    margin-top: 0.2em;
+}
+
+.buttonBrown{
+    background-color: rgb(192, 147, 2);
+}
+.buttonGreen{
+    background-color: rgb(13, 201, 13);
+}
